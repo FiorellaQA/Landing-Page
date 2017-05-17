@@ -3,3 +3,23 @@ body{
 	margin:0;
 	padding:0;
 }
+@media (min-width: 768px).barra-superior {
+    display: block;
+}
+header{
+	position: relative;
+    height: 480px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9ACCEF;
+}
+div.content{
+	box-sizing: border-box;
+    background-color: green;
+    margin: 16% 0;
+    color: white;
+}
+img.center-logo{
+	    width: 120px;
+    margin: 0 auto 10px;
+}
