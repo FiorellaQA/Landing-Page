@@ -18,11 +18,50 @@ section#promo{
     line-height: 35px;
 }
 i.icon-position{
+    cursor: pointer;
     position: absolute;
-    font-size: 1.5em;
+    font-size: 2.5em;
     right: 0.9em;
-    top: 0.3em;
+    top: 0;
 }
+header{
+        padding-top: 4.6em;
+    height: 383px;
+    background-color: #9ACCEF;
+}
+nav#nav {
+    font-weight: bold;
+    color: white;
+    line-height: 4em;
+}
+a{
+    color:white;
+    transition: all 0.2s linear;
+}
+i.circle{
+        font-size: 0.9em;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    padding: 0.5em;
+}
+#nav a:hover {
+    color: #3498DB;
+    text-decoration: none;
+}
+img.small-img{
+    height: 3.4em;
+    position: absolute;
+}
+.pLeft{
+    padding-left: 4.5em;
+
+}
+/*nav{
+    position: absolute;
+    top: 30px;
+    min-height: auto;
+    z-index: 10;
+}*/
 /*@media (min-width: 768px).barra-superior {
     display: block;
 }
