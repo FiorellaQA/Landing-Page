@@ -25,9 +25,16 @@ i.icon-position{
     top: 0;
 }
 header{
-        padding-top: 4.6em;
+    padding-top: 4.6em;
     height: 383px;
     background-color: #9ACCEF;
+    color:white;
+}
+h2.title{
+    font-size: 4.5em;
+}
+h4.subtitle{
+    font-size:1.6em;
 }
 nav#nav {
     font-weight: bold;
@@ -39,12 +46,12 @@ a{
     transition: all 0.2s linear;
 }
 i.circle{
-        font-size: 0.9em;
+    font-size: 0.9em;
     border: 1.5px solid white;
     border-radius: 50%;
     padding: 0.5em;
 }
-#nav a:hover {
+#nav a.links:hover {
     color: #3498DB;
     text-decoration: none;
 }
@@ -56,6 +63,21 @@ img.small-img{
     padding-left: 4.5em;
 
 }
+div.container-hero{
+ width: 100%;
+}
+div.icon--hero-park{
+    display: inline-block;
+        width: 260px;
+    height: 316px;
+}
+div.icon--hero-bench{
+    display: inline-block;
+    width: 148px;
+    height: 66px;
+}
+
+
 /*nav{
     position: absolute;
     top: 30px;
