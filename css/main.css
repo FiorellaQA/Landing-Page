@@ -3,7 +3,27 @@ body{
 	margin:0;
 	padding:0;
 }
-@media (min-width: 768px).barra-superior {
+section#promo{
+    position: fixed;
+    height: 35px;
+    width: 100%;
+    background-color: #ED7161;
+    text-align: center;
+   /* z-index: 500;*/
+}
+.containerPromo {
+    font-size: 0.96em;
+    /* letter-spacing: 0.03em; */
+    color: white;
+    line-height: 35px;
+}
+i.icon-position{
+    position: absolute;
+    font-size: 1.5em;
+    right: 0.9em;
+    top: 0.3em;
+}
+/*@media (min-width: 768px).barra-superior {
     display: block;
 }
 header{
@@ -25,4 +45,4 @@ img.center-logo{
 }
 a.text-white{
 	color:white;
-}
+}*/
